@@ -6,7 +6,7 @@ Challenge is to build multilingual models with English-only training data to ide
 * Test & Validation data contains comments composed of multiple non-English languages.
 * Predict the probability that a comment is toxic. A toxic comment would receive a 1.0. A benign, non-toxic comment would receive a 0.0. In the test set, all comments are classified as either a 1.0 or a 0.0.
 
-
+ 
 
 
 

@@ -10,7 +10,6 @@ Pseudo labeling is the process of adding confident predicted test data to your t
 3. Add confident predicted test observations to our training data 
 4. Build a new model using combined data 
 5. Use your new model to predict the test data and submit to Kaggle. Here is a pictorial explanation using sythetic 2D data
-</br>
 How pseudo labeling works is best understood with QDA (Quadratic Discriminant Analysis). QDA works by using points in p-dimensional space to find hyper-ellipsoids. With more points, QDA can better estimate the center and shape of each ellipsoid (and consequently make better preditions afterward). Pseudo labeling helps all types of models because all models can be visualized as finding shapes of target=1 and target=0 in p-dimensional space. 
 
 

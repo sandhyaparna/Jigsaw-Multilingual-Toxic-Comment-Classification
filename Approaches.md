@@ -10,8 +10,15 @@ How pseudo labeling works is best understood with QDA (Quadratic Discriminant An
   3. Add confident predicted test observations to our training data 
   4. Build a new model using combined data 
   5. Use your new model to predict the test data and submit to Kaggle. Here is a pictorial explanation using sythetic 2D data </br>
-
-
+* Test Time Augmentation (TTA) is a technique where we make the prediction on not just a test example, but also some of its variants, to end up with a better final prediction. We employed this technique in some of our underlying models, and it gave us a minor boost, here is how it worked:
+  1. Make a prediction on the original comment in the test dataset
+  2. Make predictions on the translation of the original comment in various languages
+  3. Take a weighted average of predictions on original comment and its translations
+  
+### Models
+* RoBERTa XLM
+* BERT models pre-trained on specific languages of interest
+* 
 
 
 

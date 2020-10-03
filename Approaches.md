@@ -21,7 +21,19 @@ How pseudo labeling works is best understood with QDA (Quadratic Discriminant An
 * 
 
 
-
+https://www.kaggle.com/sandhyaparna/jigsaw-multilingual-toxic-comment-classification/edit 
+EDA on Text Data: Should be performed only on Text data. Data preprocessing to be performed on entire data
+	• Word cloud of all the words in the text
+	• Identify language of the text using polyglot package
+	• Check the distribution/frequency of different languages
+	• Check frequency/Number of comments by Comments 
+	• Within Non-English comments see their distribution separately as English ones are way more than others
+	• Histogram of number of the words in a comment
+	• Average number of words in comments by Language/Country
+	• Label creation: Train data has Toxic variable which the actual Target variable(a). But there are other variables in addition to it that similar to Toxic: severe_toxic, obscene, threat, insult, identity_hate. Create a variable that takes max value out of these additional variables(b). 
+		○ Create max of a & b - AnyToxic
+	• Train data is translated to different languages (Top 6 Non-English languages that have more number of comments)
+GoogleTrans library is used to translate Train data to different languages
 
 
 

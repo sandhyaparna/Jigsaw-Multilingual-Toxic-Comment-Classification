@@ -21,7 +21,6 @@ How pseudo labeling works is best understood with QDA (Quadratic Discriminant An
 * 
 
 
-https://www.kaggle.com/sandhyaparna/jigsaw-multilingual-toxic-comment-classification/edit  </br>
 EDA on Text Data: Should be performed only on Text data. Data preprocessing to be performed on entire data
 * Word cloud of all the words in the text
 * Identify language of the text using polyglot package

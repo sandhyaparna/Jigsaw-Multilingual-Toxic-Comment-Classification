@@ -1,7 +1,8 @@
 * Check data languages in Train & Validation data set
 * Convert train data into languages present in Validation data set as it is similar to Test data
 
-### EDA: Performed only on Train data. Data Preprocessing is performed on entire data
+### EDA: 
+Performed only on Train data. Data Preprocessing is performed on entire data
 • Word cloud of all the words in the text
 • Word cloud of words in Non-Toxic comments vs Word cloud of words in Toxic comments
 • For different shapes (persons)  in wordcloud. Images from kernel

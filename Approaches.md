@@ -3,23 +3,23 @@
 
 ### EDA: 
 Performed only on Train data. Data Preprocessing is performed on entire data
-• Word cloud of all the words in the text
-• Word cloud of words in Non-Toxic comments vs Word cloud of words in Toxic comments
-• For different shapes (persons)  in wordcloud. Images from kernel
-• Identify language of the text using polyglot package
-• Check the frequency distribution of different languages by Target variable
-• World plot of different languages by their number of comments/observations i.e Freq by country on a world plot
-• Continents wise plot of different languages
-• Histogram of number of the words in a comment
-• Within Non-English comments see their distribution separately as English ones are way more than others
-• Average number of words in comments by Language and Country
-• Get sentiment of the comments. Freq of comments by Negative/Positive sentiment value
-• Observe which countries show max number of Negative/Positive sentiments
-• Check Sentiment vs Toxicity. If Toxic comments have comparatively more Negative sentiment? 
-• Get Readability of comments: Flesch reading ease, automated readability, and Dale-Chall readability
-• Flesch reading ease vs Toxicity
-• Freq of languages comments in Validation data
-• If date of the comment is available -Number of Toxic vs Non-Toxic comments by Date
+* Word cloud of all the words in the text
+* Word cloud of words in Non-Toxic comments vs Word cloud of words in Toxic comments
+* For different shapes (persons)  in wordcloud. Images from kernel
+* Identify language of the text using polyglot package
+* Check the frequency distribution of different languages by Target variable
+* World plot of different languages by their number of comments/observations i.e Freq by country on a world plot
+* Continents wise plot of different languages
+* Histogram of number of the words in a comment
+* Within Non-English comments see their distribution separately as English ones are way more than others
+* Average number of words in comments by Language and Country
+* Get sentiment of the comments. Freq of comments by Negative/Positive sentiment value
+* Observe which countries show max number of Negative/Positive sentiments
+* Check Sentiment vs Toxicity. If Toxic comments have comparatively more Negative sentiment? 
+* Get Readability of comments: Flesch reading ease, automated readability, and Dale-Chall readability
+* Flesch reading ease vs Toxicity
+* Freq of languages comments in Validation data
+* If date of the comment is available -Number of Toxic vs Non-Toxic comments by Date
 
 
 
